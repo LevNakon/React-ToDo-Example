@@ -1,0 +1,113 @@
+.for-tool{
+    background-color: blue;
+}
+
+.for-link{
+    margin-left: 3%;
+}
+
+.for-link:hover{
+    text-decoration: none;
+}
+
+.for-link Button{
+    color: lemonchiffon;
+}
+
+.for-link Button:hover{
+    background-color: lemonchiffon;
+    color: blue;
+}
+
+.selected{
+    border-bottom-width: 2px;
+    border-bottom-color: lemonchiffon;
+    border-bottom-style: solid;
+}
+
+.for-home{
+    text-align: center;
+    color: lemonchiffon;
+    background-image: url(../static/wall.jpg);
+    height: 600px;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.for-error{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5em;
+    color: blue;
+}
+
+.for-form{
+    margin-left: 30%;
+    margin-top: 3%;
+    border: 2px solid blue;
+    border-radius: 30px;
+    width: 500px;
+    padding: 5% 5%;
+}
+
+.for-form div{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.for-items li{
+    width: 100%;
+}
+
+.for-form button{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.for-items Button{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.green{
+    background: green !important;
+    margin: 0 2% !important;
+}
+
+.red{
+    background: red !important;
+    margin: 0 2% !important;
+}
+
+.for-items{
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    padding: 2%;
+}
+
+.fl-r{
+    float: right;
+}
+
+.fl-l{
+    float: left;
+}
+
+.for-items-container{
+    width: 45%;
+    padding: 3%;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.completed{
+    text-decoration: line-through;
+}
+
+.non-completed{
+    text-decoration: none;
+}
