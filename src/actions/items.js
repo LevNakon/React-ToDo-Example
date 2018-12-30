@@ -75,8 +75,8 @@ export const fetchDeleteItem = (token, id) => (dispatch, getState) => {
 };
 
 export const CURRENT_ITEM = 'CURRENT_ITEM';
-export const fetchOneItem = (tokens,id) => dispatch => {
-    return ItemsService.getItem(tokens,id)
+export const fetchOneItem = (tokens, id) => dispatch => {
+    return ItemsService.getItem(tokens, id)
         .then(item => {
             dispatch({
                 type: CURRENT_ITEM,
